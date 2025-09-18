@@ -204,7 +204,7 @@ export function EmergencySection() {
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50 relative overflow-hidden">
+    <section id="emergency" className="py-20 bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50 relative overflow-hidden">
       {/* Enhanced Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-32 h-32 bg-red-200/20 rounded-full blur-xl animate-pulse delay-300"></div>

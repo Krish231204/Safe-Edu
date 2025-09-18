@@ -6,7 +6,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function HeroSection() {
   return (
-    <section className="relative bg-gradient-to-br from-blue-50 via-white to-green-50 py-20 overflow-hidden">
+    <section id="hero" className="relative bg-gradient-to-br from-blue-50 via-white to-green-50 py-20 overflow-hidden">
       {/* Animated background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-10 w-20 h-20 bg-blue-200/30 rounded-full blur-xl animate-pulse"></div>

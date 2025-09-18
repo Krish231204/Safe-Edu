@@ -72,7 +72,7 @@ export function DashboardSection() {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="dashboard" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge className="bg-purple-100 text-purple-800 border-purple-200 mb-4">

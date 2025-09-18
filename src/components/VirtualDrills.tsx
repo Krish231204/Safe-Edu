@@ -82,7 +82,7 @@ export function VirtualDrills() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+    <section id="drills" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <Badge className="bg-red-100 text-red-800 border-red-200 mb-4">

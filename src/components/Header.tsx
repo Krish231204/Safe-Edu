@@ -1,8 +1,21 @@
+import { useCallback, useState } from "react";
+import { StateSelect } from "./StateSelect";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Shield, Menu, Bell, User } from "lucide-react";
 
+// Simple smooth scroll helper with header offset
+function scrollToSection(id: string) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const headerOffset = 80; // adjust if header height changes
+  const y = el.getBoundingClientRect().top + window.scrollY - headerOffset;
+  window.scrollTo({ top: y, behavior: 'smooth' });
+}
+
 export function Header() {
+  const [currentState, setCurrentState] = useState<string>("Maharashtra");
+  const handleNav = useCallback((id: string) => () => scrollToSection(id), []);
   return (
     <header className="border-b bg-white/80 backdrop-blur-md sticky top-0 z-50 transition-all duration-300 hover:bg-white/90 hover:shadow-lg hover:shadow-blue-100/50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -19,28 +32,28 @@ export function Header() {
         </div>
 
         <nav className="hidden md:flex items-center gap-2">
-          <Button variant="ghost" className="text-gray-600 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md hover:shadow-blue-100/50 transition-all duration-300 hover:scale-105 relative group">
+          <Button onClick={handleNav('dashboard')} variant="ghost" className="text-gray-600 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md hover:shadow-blue-100/50 transition-all duration-300 hover:scale-105 relative group">
             <span className="relative z-10">Dashboard</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/0 to-blue-600/0 group-hover:from-blue-400/10 group-hover:to-blue-600/10 rounded-md transition-all duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/0 to-blue-600/0 group-hover:from-blue-400/10 group-hover:to-blue-600/10 rounded-md transition-all duration-300" />
           </Button>
-          <Button variant="ghost" className="text-gray-600 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md hover:shadow-blue-100/50 transition-all duration-300 hover:scale-105 relative group">
+          <Button onClick={handleNav('learn')} variant="ghost" className="text-gray-600 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md hover:shadow-blue-100/50 transition-all duration-300 hover:scale-105 relative group">
             <span className="relative z-10">Learn</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/0 to-blue-600/0 group-hover:from-blue-400/10 group-hover:to-blue-600/10 rounded-md transition-all duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/0 to-blue-600/0 group-hover:from-blue-400/10 group-hover:to-blue-600/10 rounded-md transition-all duration-300" />
           </Button>
-          <Button variant="ghost" className="text-gray-600 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md hover:shadow-blue-100/50 transition-all duration-300 hover:scale-105 relative group">
+          <Button onClick={handleNav('drills')} variant="ghost" className="text-gray-600 hover:text-blue-600 hover:bg-blue-50 hover:shadow-md hover:shadow-blue-100/50 transition-all duration-300 hover:scale-105 relative group">
             <span className="relative z-10">Virtual Drills</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/0 to-blue-600/0 group-hover:from-blue-400/10 group-hover:to-blue-600/10 rounded-md transition-all duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-400/0 to-blue-600/0 group-hover:from-blue-400/10 group-hover:to-blue-600/10 rounded-md transition-all duration-300" />
           </Button>
-          <Button variant="ghost" className="text-gray-600 hover:text-red-600 hover:bg-red-50 hover:shadow-md hover:shadow-red-100/50 transition-all duration-300 hover:scale-105 relative group">
+            <Button onClick={handleNav('emergency')} variant="ghost" className="text-gray-600 hover:text-red-600 hover:bg-red-50 hover:shadow-md hover:shadow-red-100/50 transition-all duration-300 hover:scale-105 relative group">
             <span className="relative z-10">Emergency</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-red-400/0 to-red-600/0 group-hover:from-red-400/10 group-hover:to-red-600/10 rounded-md transition-all duration-300"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-red-400/0 to-red-600/0 group-hover:from-red-400/10 group-hover:to-red-600/10 rounded-md transition-all duration-300" />
           </Button>
         </nav>
 
         <div className="flex items-center gap-3">
-          <Badge variant="secondary" className="bg-green-100 text-green-800 hidden sm:flex hover:bg-green-200 hover:scale-105 hover:shadow-lg hover:shadow-green-200/50 transition-all duration-300 cursor-pointer">
-            Mumbai Region
-          </Badge>
+          <div className="hidden sm:block">
+            <StateSelect value={currentState} onChange={setCurrentState} />
+          </div>
           <Button variant="ghost" size="sm" className="relative hover:bg-red-50 hover:text-red-600 hover:scale-110 hover:shadow-lg hover:shadow-red-200/50 transition-all duration-300 group">
             <Bell className="h-4 w-4 transition-transform duration-300 group-hover:rotate-12" />
             <span className="absolute -top-1 -right-1 h-3 w-3 bg-red-500 rounded-full animate-pulse"></span>
