@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { StateSelect } from "./StateSelect";
+import { useLocation } from "../context/LocationContext";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Shield, Menu, Bell, User } from "lucide-react";
@@ -14,7 +15,7 @@ function scrollToSection(id: string) {
 }
 
 export function Header() {
-  const [currentState, setCurrentState] = useState<string>("Maharashtra");
+  const { selectedState, setSelectedState } = useLocation();
   const handleNav = useCallback((id: string) => () => scrollToSection(id), []);
   return (
     <header className="border-b bg-white/80 backdrop-blur-md sticky top-0 z-50 transition-all duration-300 hover:bg-white/90 hover:shadow-lg hover:shadow-blue-100/50">
@@ -52,7 +53,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <div className="hidden sm:block">
-            <StateSelect value={currentState} onChange={setCurrentState} />
+            <StateSelect value={selectedState} onChange={setSelectedState} />
           </div>
           <Button variant="ghost" size="sm" className="relative hover:bg-red-50 hover:text-red-600 hover:scale-110 hover:shadow-lg hover:shadow-red-200/50 transition-all duration-300 group">
             <Bell className="h-4 w-4 transition-transform duration-300 group-hover:rotate-12" />

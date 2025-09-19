@@ -6,20 +6,23 @@ import { VirtualDrills } from "./components/VirtualDrills";
 import { DashboardSection } from "./components/DashboardSection";
 import { EmergencySection } from "./components/EmergencySection";
 import { Footer } from "./components/Footer";
+import { LocationProvider } from "./context/LocationContext";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main>
-        <HeroSection />
-        <FeaturesSection />
-        <LearningModules />
-        <VirtualDrills />
-        <DashboardSection />
-        <EmergencySection />
-      </main>
-      <Footer />
-    </div>
+    <LocationProvider>
+      <div className="min-h-screen bg-white">
+        <Header />
+        <main>
+          <HeroSection />
+          <FeaturesSection />
+          <LearningModules />
+          <VirtualDrills />
+          <DashboardSection />
+          <EmergencySection />
+        </main>
+        <Footer />
+      </div>
+    </LocationProvider>
   );
 }

@@ -1,0 +1,134 @@
+{
+	"national": [
+		{ "name": "National Emergency Number", "number": "112", "type": "Unified", "description": "Single pan-India helpline for Police, Fire & Ambulance" },
+		{ "name": "Police Control Room", "number": "100", "type": "Police", "description": "Immediate police assistance" },
+		{ "name": "Fire & Rescue", "number": "101", "type": "Fire", "description": "Fire emergency response" },
+		{ "name": "Ambulance / Medical", "number": "108", "type": "Medical", "description": "Emergency pre-hospital care & ambulance" },
+		{ "name": "Disaster Management (Central)", "number": "1078", "type": "Disaster", "description": "Central disaster management helpline" },
+		{ "name": "Women Helpline", "number": "1091", "type": "Women", "description": "Women safety & support" },
+		{ "name": "Child Helpline", "number": "1098", "type": "Child", "description": "Child distress & protection" },
+		{ "name": "Cyber Crime Helpline", "number": "1930", "type": "Cyber", "description": "Report online fraud & cyber crime" },
+		{ "name": "Road Accident / Highway Patrol", "number": "1033", "type": "Road", "description": "National highway emergency assistance" },
+		{ "name": "Railway Helpline", "number": "139", "type": "Railway", "description": "Railway security & passenger assistance" },
+		{ "name": "Health Helpline", "number": "104", "type": "Health", "description": "General health advice & disease info" }
+	],
+	"states": {
+		"Maharashtra": {
+			"contacts": [
+				{ "name": "State Disaster Control Room", "number": "1070", "type": "Disaster", "description": "State disaster management & coordination" },
+				{ "name": "Mumbai Police Helpline", "number": "100", "type": "Police", "description": "Police emergency (Mumbai & statewide)" },
+				{ "name": "Fire Brigade (Mumbai)", "number": "101", "type": "Fire", "description": "Urban & industrial fire emergencies" },
+				{ "name": "Ambulance / EMT", "number": "108", "type": "Medical", "description": "Ambulance & emergency medical transport" },
+				{ "name": "Women Helpline (State)", "number": "181", "type": "Women", "description": "24x7 women crisis support" }
+			]
+		},
+		"Delhi": {
+			"contacts": [
+				{ "name": "Disaster Management (Delhi)", "number": "1077", "type": "Disaster", "description": "District disaster emergency coordination" },
+				{ "name": "Delhi Police", "number": "112", "type": "Police", "description": "Integrated emergency access" },
+				{ "name": "Delhi Fire Service", "number": "101", "type": "Fire", "description": "Fire & rescue operations" },
+				{ "name": "CATS Ambulance", "number": "102", "type": "Medical", "description": "Capital ambulance transport service" },
+				{ "name": "Women Helpline (Delhi)", "number": "181", "type": "Women", "description": "Women safety & shelter assistance" }
+			]
+		},
+		"Karnataka": {
+			"contacts": [
+				{ "name": "State Disaster Management", "number": "1070", "type": "Disaster", "description": "State coordination during disasters" },
+				{ "name": "Bengaluru Police Control", "number": "112", "type": "Police", "description": "Unified emergency (city & state)" },
+				{ "name": "Fire & Emergency Services", "number": "101", "type": "Fire", "description": "Urban & forest fire response" },
+				{ "name": "Emergency Ambulance", "number": "108", "type": "Medical", "description": "24x7 medical response & transport" },
+				{ "name": "Women Helpline", "number": "1091", "type": "Women", "description": "Women distress reporting" }
+			]
+		},
+		"Tamil Nadu": {
+			"contacts": [
+				{ "name": "State Disaster Control", "number": "1070", "type": "Disaster", "description": "Cyclone & flood coordination" },
+				{ "name": "Police Control Room", "number": "100", "type": "Police", "description": "Emergency police support" },
+				{ "name": "Fire & Rescue Service", "number": "101", "type": "Fire", "description": "Firefighting & rescue ops" },
+				{ "name": "Medical Ambulance", "number": "108", "type": "Medical", "description": "Ambulance & paramedic services" },
+				{ "name": "Women Helpline (Tamil Nadu)", "number": "181", "type": "Women", "description": "Women protection & counseling" }
+			]
+		},
+		"Gujarat": {
+			"contacts": [
+				{ "name": "State Emergency Ops Center", "number": "1070", "type": "Disaster", "description": "Earthquake & cyclone response" },
+				{ "name": "Police Helpline", "number": "100", "type": "Police", "description": "Immediate police assistance" },
+				{ "name": "Fire & Rescue", "number": "101", "type": "Fire", "description": "Industrial & urban fire control" },
+				{ "name": "108 GVK EMRI", "number": "108", "type": "Medical", "description": "Integrated medical response" },
+				{ "name": "Women Helpline", "number": "181", "type": "Women", "description": "Women crisis & legal support" }
+			]
+		},
+		"Uttar Pradesh": {
+			"contacts": [
+				{ "name": "State Disaster Management", "number": "1070", "type": "Disaster", "description": "Flood & disaster coordination" },
+				{ "name": "UP Police", "number": "112", "type": "Police", "description": "Integrated police helpline" },
+				{ "name": "Fire Services", "number": "101", "type": "Fire", "description": "Fire response & rescue" },
+				{ "name": "Emergency Ambulance", "number": "108", "type": "Medical", "description": "Ambulance & trauma support" },
+				{ "name": "Women Helpline", "number": "1090", "type": "Women", "description": "UP women safety & vigilance" }
+			]
+		},
+		"West Bengal": {
+			"contacts": [
+				{ "name": "Disaster Management Dept", "number": "1070", "type": "Disaster", "description": "Cyclone & flood operations" },
+				{ "name": "Police", "number": "100", "type": "Police", "description": "Police emergency" },
+				{ "name": "Fire Service", "number": "101", "type": "Fire", "description": "Fire & rescue activities" },
+				{ "name": "Medical Emergency", "number": "108", "type": "Medical", "description": "Ambulance & medical support" },
+				{ "name": "Women Helpline", "number": "181", "type": "Women", "description": "Women safety support" }
+			]
+		},
+		"Rajasthan": {
+			"contacts": [
+				{ "name": "State Disaster Relief", "number": "1070", "type": "Disaster", "description": "Desert & drought emergency response" },
+				{ "name": "Police Helpline", "number": "100", "type": "Police", "description": "Police control room" },
+				{ "name": "Fire Services", "number": "101", "type": "Fire", "description": "Firefighting support" },
+				{ "name": "Ambulance Service", "number": "108", "type": "Medical", "description": "Medical emergency transport" },
+				{ "name": "Women Helpline", "number": "1091", "type": "Women", "description": "Women distress helpline" }
+			]
+		},
+		"Kerala": {
+			"contacts": [
+				{ "name": "State Disaster Control", "number": "1070", "type": "Disaster", "description": "Flood & landslide coordination" },
+				{ "name": "Police Helpline", "number": "100", "type": "Police", "description": "Police emergency helpline" },
+				{ "name": "Fire & Rescue", "number": "101", "type": "Fire", "description": "Fire & rescue stations" },
+				{ "name": "Emergency Ambulance", "number": "108", "type": "Medical", "description": "Ambulance & paramedic services" },
+				{ "name": "Women Helpline", "number": "181", "type": "Women", "description": "Women protection assistance" }
+			]
+		},
+		"Bihar": {
+			"contacts": [
+				{ "name": "State Disaster Management", "number": "1070", "type": "Disaster", "description": "Flood & disaster response" },
+				{ "name": "Police Helpline", "number": "100", "type": "Police", "description": "Police control room" },
+				{ "name": "Fire Service", "number": "101", "type": "Fire", "description": "Fire incidents response" },
+				{ "name": "Ambulance / Medical", "number": "108", "type": "Medical", "description": "Emergency medical transport" },
+				{ "name": "Women Helpline", "number": "181", "type": "Women", "description": "Women crisis center" }
+			]
+		},
+		"Andhra Pradesh": {
+			"contacts": [
+				{ "name": "State Disaster Control", "number": "1070", "type": "Disaster", "description": "Cyclone & coastal emergencies" },
+				{ "name": "Police", "number": "100", "type": "Police", "description": "Police emergency assistance" },
+				{ "name": "Fire & Rescue", "number": "101", "type": "Fire", "description": "Fire station network" },
+				{ "name": "Ambulance", "number": "108", "type": "Medical", "description": "Emergency medical service" },
+				{ "name": "Women Helpline", "number": "1091", "type": "Women", "description": "Women safety help" }
+			]
+		},
+		"Telangana": {
+			"contacts": [
+				{ "name": "Disaster Response Force", "number": "1070", "type": "Disaster", "description": "State emergency & disaster response" },
+				{ "name": "Police", "number": "100", "type": "Police", "description": "24x7 police support" },
+				{ "name": "Fire Services", "number": "101", "type": "Fire", "description": "Fire & rescue operations" },
+				{ "name": "Emergency Ambulance", "number": "108", "type": "Medical", "description": "Medical emergency dispatch" },
+				{ "name": "Women Helpline", "number": "1091", "type": "Women", "description": "Women distress helpline" }
+			]
+		},
+		"Madhya Pradesh": {
+			"contacts": [
+				{ "name": "State Disaster Relief", "number": "1070", "type": "Disaster", "description": "Disaster preparedness & response" },
+				{ "name": "Police", "number": "100", "type": "Police", "description": "Law & order emergencies" },
+				{ "name": "Fire Services", "number": "101", "type": "Fire", "description": "Fire control & rescue" },
+				{ "name": "Ambulance Service", "number": "108", "type": "Medical", "description": "Medical emergency transport" },
+				{ "name": "Women Helpline", "number": "1091", "type": "Women", "description": "Women safety center" }
+			]
+		}
+	}
+}

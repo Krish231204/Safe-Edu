@@ -21,9 +21,17 @@ import {
   Share,
   FileText
 } from "lucide-react";
+import { useEffect, useMemo, useState } from 'react';
+import { useLocation } from "../context/LocationContext";
+import { fetchEmergencyContactsByState, type EmergencyCategory } from "../services/api";
 
 export function EmergencySection() {
-  const emergencyContacts = [
+  const { selectedState } = useLocation();
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [fetchedCategories, setFetchedCategories] = useState<EmergencyCategory[] | null>(null);
+
+  const defaultContacts = [
     {
       category: "Police & Security",
       icon: Shield,
@@ -202,6 +210,28 @@ export function EmergencySection() {
     };
     return colorMap[color as keyof typeof colorMap] || colorMap.blue;
   };
+
+  // Determine data source: API results or defaults
+  const emergencyContacts: EmergencyCategory[] = useMemo(() => {
+    if (fetchedCategories && fetchedCategories.length > 0) return fetchedCategories;
+    // map default to include colors for UI
+    return defaultContacts as unknown as EmergencyCategory[];
+  }, [fetchedCategories, defaultContacts]);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    setLoading(true);
+    setError(null);
+    fetchEmergencyContactsByState(selectedState, controller.signal)
+      .then(setFetchedCategories)
+      .catch((e) => {
+        console.warn('Emergency contacts fetch failed:', e);
+        setError('Unable to load state contacts. Showing defaults.');
+        setFetchedCategories(null);
+      })
+      .finally(() => setLoading(false));
+    return () => controller.abort();
+  }, [selectedState]);
 
   return (
     <section id="emergency" className="py-20 bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50 relative overflow-hidden">
@@ -429,15 +459,22 @@ export function EmergencySection() {
                   <Phone className="h-8 w-8 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12" />
                   <div>
                     <h3 className="text-xl font-semibold">Emergency Contact Directory</h3>
-                    <p className="text-sm opacity-90">24/7 emergency services across India</p>
+                    <p className="text-sm opacity-90">{selectedState} • 24/7 emergency services</p>
                   </div>
                 </div>
               </div>
               
+              {loading && (
+                <div className="text-center text-sm text-gray-600">Loading contacts for {selectedState}…</div>
+              )}
+              {error && (
+                <div className="text-center text-xs text-orange-600">{error}</div>
+              )}
+
               <div className="grid md:grid-cols-3 gap-6">
                 {emergencyContacts.map((category, index) => {
-                  const Icon = category.icon;
-                  const colors = getColorClasses(category.color);
+                  const Icon = (category as any).icon ?? Shield;
+                  const colors = getColorClasses((category as any).color || 'blue');
                   
                   return (
                     <Card key={index} className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105 hover:-translate-y-2 group relative overflow-hidden">
