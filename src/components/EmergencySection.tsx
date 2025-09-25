@@ -528,7 +528,7 @@ export function EmergencySection() {
                       <Phone className="h-4 w-4 mr-2 transition-transform duration-300 group-hover/call:rotate-12" />
                       Call 100
                     </Button>
-                    <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-600 hover:scale-110 hover:shadow-xl transition-all duration-300 group/panic">
+                    <Button size="lg" className="bg-red-600 text-white border-red-600 hover:bg-red-700 hover:border-red-700 hover:scale-110 hover:shadow-xl transition-all duration-300 group/panic">
                       <AlertTriangle className="h-4 w-4 mr-2 animate-pulse" />
                       Panic Button
                     </Button>
