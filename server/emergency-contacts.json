@@ -1,0 +1,1254 @@
+{
+  "Maharashtra": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Mumbai Police Control", "number": "022-2262-0111", "type": "City Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Helpline", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency", 
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "State Emergency" },
+          { "name": "Blood Bank Mumbai", "number": "022-2419-2527", "type": "Blood Donation" },
+          { "name": "Poison Control", "number": "1066", "type": "24/7 Poison Help" },
+          { "name": "COVID Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange", 
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Mumbai Fire Dept", "number": "022-2307-6666", "type": "Mumbai Fire" },
+          { "name": "Gas Leak Emergency", "number": "1906", "type": "Gas Safety" },
+          { "name": "Disaster Management", "number": "022-2274-5000", "type": "NDRF Mumbai" }
+        ]
+      }
+    ]
+  },
+  "Delhi": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Delhi Police Control", "number": "011-2691-1111", "type": "Control Room" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "PCR Emergency", "number": "011-2649-2020", "type": "Police Control" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red", 
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Delhi Emergency" },
+          { "name": "AIIMS Emergency", "number": "011-2658-8500", "type": "AIIMS Hospital" },
+          { "name": "Blood Bank Delhi", "number": "011-2337-8277", "type": "Red Cross" },
+          { "name": "Poison Control", "number": "011-2658-8663", "type": "AIIMS Poison" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Delhi Fire Service", "number": "011-2323-2323", "type": "Delhi Fire" },
+          { "name": "Gas Emergency", "number": "1906", "type": "Gas Safety" },
+          { "name": "NDRF Delhi", "number": "011-2671-3091", "type": "Disaster Response" }
+        ]
+      }
+    ]
+  },
+  "Tamil Nadu": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Chennai Police", "number": "044-2844-0110", "type": "Chennai Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Coastal Security", "number": "1718", "type": "Coast Guard" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "TN Emergency" },
+          { "name": "Government Hospital", "number": "044-2819-3000", "type": "Chennai GH" },
+          { "name": "Blood Bank Chennai", "number": "044-2819-3333", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Info" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Chennai Fire", "number": "044-2854-1111", "type": "Chennai Fire" },
+          { "name": "Cyclone Warning", "number": "1077", "type": "Weather Alert" },
+          { "name": "Disaster Control", "number": "044-2841-1411", "type": "State DDMA" }
+        ]
+      }
+    ]
+  },
+  "Karnataka": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Bangalore Police", "number": "080-2294-2555", "type": "Bangalore Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Cyber Crime", "number": "155620", "type": "Cyber Security" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Karnataka Emergency" },
+          { "name": "NIMHANS Emergency", "number": "080-2699-5000", "type": "Mental Health" },
+          { "name": "Blood Bank Bangalore", "number": "080-2670-1142", "type": "Blood Center" },
+          { "name": "Poison Control", "number": "080-2670-5000", "type": "Medical Emergency" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Bangalore Fire Dept", "number": "080-2286-2222", "type": "BFD Control" },
+          { "name": "Gas Emergency", "number": "1906", "type": "Gas Safety" },
+          { "name": "Disaster Management", "number": "080-2225-2894", "type": "State DDMA" }
+        ]
+      }
+    ]
+  },
+  "West Bengal": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Kolkata Police", "number": "033-2214-5185", "type": "Kolkata Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Helpline", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "WB Emergency" },
+          { "name": "Medical College Hospital", "number": "033-2241-3513", "type": "MCH Kolkata" },
+          { "name": "Blood Bank Kolkata", "number": "033-2287-4428", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Kolkata Fire Service", "number": "033-2265-1111", "type": "KFS Control" },
+          { "name": "Cyclone Warning", "number": "1077", "type": "Weather Alert" },
+          { "name": "Port Emergency", "number": "033-2469-8556", "type": "Kolkata Port" }
+        ]
+      }
+    ]
+  },
+  "Gujarat": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Ahmedabad Police", "number": "079-2550-0000", "type": "Ahmedabad Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Control Room", "number": "181", "type": "Gujarat Police" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Gujarat Emergency" },
+          { "name": "Civil Hospital Ahmedabad", "number": "079-2268-9322", "type": "Civil Hospital" },
+          { "name": "Blood Bank Gujarat", "number": "079-2268-4000", "type": "Blood Center" },
+          { "name": "Poison Control", "number": "079-2630-2819", "type": "Medical Emergency" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Ahmedabad Fire", "number": "079-2550-1234", "type": "AMD Fire" },
+          { "name": "Industrial Emergency", "number": "1906", "type": "Chemical Safety" },
+          { "name": "Earthquake Helpline", "number": "1070", "type": "Seismic Alert" }
+        ]
+      }
+    ]
+  },
+  "Rajasthan": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Jaipur Police", "number": "0141-511-0000", "type": "Jaipur Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Helpline", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Rajasthan Emergency" },
+          { "name": "SMS Hospital Jaipur", "number": "0141-251-8121", "type": "SMS Hospital" },
+          { "name": "Blood Bank Jaipur", "number": "0141-256-6251", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Jaipur Fire Service", "number": "0141-237-2222", "type": "Jaipur Fire" },
+          { "name": "Desert Rescue", "number": "1070", "type": "Desert Safety" },
+          { "name": "Disaster Control", "number": "0141-510-2999", "type": "State DDMA" }
+        ]
+      }
+    ]
+  },
+  "Uttar Pradesh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Lucknow Police", "number": "0522-262-0000", "type": "Lucknow Control" },
+          { "name": "Women Helpline", "number": "1090", "type": "UP Women Cell" },
+          { "name": "UP 112", "number": "112", "type": "Integrated Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "UP Emergency" },
+          { "name": "KGMU Emergency", "number": "0522-225-8700", "type": "KGMU Hospital" },
+          { "name": "Blood Bank UP", "number": "0522-225-8989", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Lucknow Fire Service", "number": "0522-239-1111", "type": "Lucknow Fire" },
+          { "name": "Gas Emergency", "number": "1906", "type": "Gas Safety" },
+          { "name": "Flood Control", "number": "1070", "type": "Flood Emergency" }
+        ]
+      }
+    ]
+  },
+  "Punjab": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Chandigarh Police", "number": "0172-270-4444", "type": "Chandigarh Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "BSF Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Punjab Emergency" },
+          { "name": "PGI Chandigarh", "number": "0172-274-7585", "type": "PGI Emergency" },
+          { "name": "Blood Bank Punjab", "number": "0172-274-6018", "type": "PGI Blood Bank" },
+          { "name": "Mental Health", "number": "0172-274-6964", "type": "Psychiatry Emergency" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Chandigarh Fire", "number": "0172-270-1234", "type": "CHD Fire" },
+          { "name": "Industrial Safety", "number": "1906", "type": "Factory Emergency" },
+          { "name": "Agricultural Emergency", "number": "1551", "type": "Farmer Helpline" }
+        ]
+      }
+    ]
+  },
+  "Andhra Pradesh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Hyderabad Police", "number": "040-2785-3333", "type": "Hyderabad Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Cybercrime", "number": "1930", "type": "Cyber Police" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "AP Emergency" },
+          { "name": "NIMS Hospital", "number": "040-6712-0000", "type": "NIMS Emergency" },
+          { "name": "Blood Bank AP", "number": "040-2340-7777", "type": "Blood Center" },
+          { "name": "Poison Control", "number": "040-2340-1253", "type": "Medical Emergency" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Hyderabad Fire", "number": "040-2785-4444", "type": "HYD Fire" },
+          { "name": "Cyclone Warning", "number": "1077", "type": "Weather Alert" },
+          { "name": "Coastal Emergency", "number": "1718", "type": "Coast Guard" }
+        ]
+      }
+    ]
+  },
+  "Kerala": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Kochi Police", "number": "0484-235-0000", "type": "Kochi Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Police", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Kerala Emergency" },
+          { "name": "Medical College Kochi", "number": "0484-240-1234", "type": "MCH Emergency" },
+          { "name": "Blood Bank Kerala", "number": "0484-240-5678", "type": "Blood Center" },
+          { "name": "Mental Health", "number": "1056", "type": "Suicide Prevention" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Kochi Fire Service", "number": "0484-235-5555", "type": "Kochi Fire" },
+          { "name": "Flood Control", "number": "1077", "type": "Monsoon Emergency" },
+          { "name": "Forest Fire", "number": "1926", "type": "Forest Department" }
+        ]
+      }
+    ]
+  },
+  "Odisha": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Bhubaneswar Police", "number": "0674-253-0000", "type": "BBSR Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Coastal Police", "number": "1718", "type": "Marine Security" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Odisha Emergency" },
+          { "name": "AIIMS Bhubaneswar", "number": "0674-247-3333", "type": "AIIMS Emergency" },
+          { "name": "Blood Bank Odisha", "number": "0674-253-6789", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Bhubaneswar Fire", "number": "0674-253-1111", "type": "BBSR Fire" },
+          { "name": "Cyclone Warning", "number": "1077", "type": "IMD Alert" },
+          { "name": "Disaster Management", "number": "0674-253-9999", "type": "OSDMA" }
+        ]
+      }
+    ]
+  },
+  "Assam": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Guwahati Police", "number": "0361-254-0000", "type": "Guwahati Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "BSF Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Assam Emergency" },
+          { "name": "GMCH Emergency", "number": "0361-267-0011", "type": "GMCH Hospital" },
+          { "name": "Blood Bank Assam", "number": "0361-254-3210", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Guwahati Fire", "number": "0361-254-2222", "type": "GHY Fire" },
+          { "name": "Flood Control", "number": "1077", "type": "Flood Emergency" },
+          { "name": "Tea Garden Emergency", "number": "1800-345-3383", "type": "Plantation Safety" }
+        ]
+      }
+    ]
+  },
+  "Bihar": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Patna Police", "number": "0612-222-3333", "type": "Patna Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Bihar Police Control", "number": "0612-222-0000", "type": "State Control" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Bihar Emergency" },
+          { "name": "PMCH Patna", "number": "0612-297-3019", "type": "PMCH Hospital" },
+          { "name": "Blood Bank Bihar", "number": "0612-222-4567", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Patna Fire Service", "number": "0612-222-1111", "type": "Patna Fire" },
+          { "name": "Flood Control", "number": "1077", "type": "Flood Emergency" },
+          { "name": "Rural Emergency", "number": "1800-345-6789", "type": "Village Safety" }
+        ]
+      }
+    ]
+  },
+  "Jharkhand": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Ranchi Police", "number": "0651-244-0000", "type": "Ranchi Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Mining Security", "number": "1800-345-2468", "type": "Mining Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Jharkhand Emergency" },
+          { "name": "RIMS Ranchi", "number": "0651-244-7777", "type": "RIMS Hospital" },
+          { "name": "Blood Bank Jharkhand", "number": "0651-244-8888", "type": "Blood Center" },
+          { "name": "Tribal Health", "number": "1800-345-1357", "type": "Tribal Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Ranchi Fire Service", "number": "0651-244-2222", "type": "Ranchi Fire" },
+          { "name": "Mine Rescue", "number": "1800-345-9999", "type": "Mining Emergency" },
+          { "name": "Forest Fire", "number": "1926", "type": "Forest Department" }
+        ]
+      }
+    ]
+  },
+  "Chhattisgarh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Raipur Police", "number": "0771-422-0000", "type": "Raipur Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Naxal Helpline", "number": "1800-200-1065", "type": "Security Alert" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "CG Emergency" },
+          { "name": "AIIMS Raipur", "number": "0771-297-1111", "type": "AIIMS Emergency" },
+          { "name": "Blood Bank CG", "number": "0771-422-3456", "type": "Blood Center" },
+          { "name": "Tribal Health", "number": "1800-233-4567", "type": "Tribal Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Raipur Fire Service", "number": "0771-422-2222", "type": "Raipur Fire" },
+          { "name": "Forest Fire", "number": "1926", "type": "Forest Department" },
+          { "name": "Mining Emergency", "number": "1800-233-9999", "type": "Coal Mining Safety" }
+        ]
+      }
+    ]
+  },
+  "Madhya Pradesh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Bhopal Police", "number": "0755-277-0000", "type": "Bhopal Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Helpline", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "MP Emergency" },
+          { "name": "AIIMS Bhopal", "number": "0755-267-4444", "type": "AIIMS Emergency" },
+          { "name": "Blood Bank MP", "number": "0755-277-5678", "type": "Blood Center" },
+          { "name": "Gas Tragedy Helpline", "number": "0755-255-0555", "type": "Chemical Emergency" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Bhopal Fire Service", "number": "0755-277-1111", "type": "Bhopal Fire" },
+          { "name": "Chemical Emergency", "number": "1906", "type": "Industrial Safety" },
+          { "name": "Tiger Reserve Emergency", "number": "1800-233-6677", "type": "Wildlife Safety" }
+        ]
+      }
+    ]
+  },
+  "Haryana": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Gurgaon Police", "number": "0124-230-0000", "type": "Gurgaon Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Highway Patrol", "number": "1033", "type": "NH Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Haryana Emergency" },
+          { "name": "PGIMS Rohtak", "number": "01262-211-308", "type": "PGIMS Hospital" },
+          { "name": "Blood Bank Haryana", "number": "0124-230-5678", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Gurgaon Fire Service", "number": "0124-230-2222", "type": "Gurgaon Fire" },
+          { "name": "Industrial Emergency", "number": "1906", "type": "Factory Safety" },
+          { "name": "Agricultural Emergency", "number": "1551", "type": "Farmer Helpline" }
+        ]
+      }
+    ]
+  },
+  "Himachal Pradesh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Shimla Police", "number": "0177-265-0000", "type": "Shimla Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Mountain Rescue", "number": "1070", "type": "Mountain Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "HP Emergency" },
+          { "name": "IGMC Shimla", "number": "0177-280-1234", "type": "IGMC Hospital" },
+          { "name": "Blood Bank HP", "number": "0177-265-5678", "type": "Blood Center" },
+          { "name": "High Altitude Medicine", "number": "0177-265-9999", "type": "Mountain Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Shimla Fire Service", "number": "0177-265-2222", "type": "Shimla Fire" },
+          { "name": "Forest Fire", "number": "1926", "type": "Forest Department" },
+          { "name": "Avalanche Warning", "number": "1800-180-1551", "type": "Snow & Avalanche" }
+        ]
+      }
+    ]
+  },
+  "Uttarakhand": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Dehradun Police", "number": "0135-277-0000", "type": "Dehradun Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Helpline", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "UK Emergency" },
+          { "name": "AIIMS Rishikesh", "number": "0135-247-1111", "type": "AIIMS Emergency" },
+          { "name": "Blood Bank UK", "number": "0135-277-5678", "type": "Blood Center" },
+          { "name": "Pilgrimage Medical", "number": "1800-180-4050", "type": "Char Dham Health" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Dehradun Fire Service", "number": "0135-277-2222", "type": "Dehradun Fire" },
+          { "name": "Mountain Rescue", "number": "1070", "type": "Mountain Safety" },
+          { "name": "River Rafting Emergency", "number": "1800-180-3636", "type": "Water Sports Safety" }
+        ]
+      }
+    ]
+  },
+  "Goa": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Panaji Police", "number": "0832-222-0000", "type": "Panaji Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Helpline", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Goa Emergency" },
+          { "name": "GMC Bambolim", "number": "0832-245-8700", "type": "GMC Hospital" },
+          { "name": "Blood Bank Goa", "number": "0832-222-5678", "type": "Blood Center" },
+          { "name": "Beach Safety", "number": "1800-233-7070", "type": "Lifeguard Service" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Panaji Fire Service", "number": "0832-222-2222", "type": "Panaji Fire" },
+          { "name": "Coast Guard", "number": "1718", "type": "Marine Emergency" },
+          { "name": "Water Sports Emergency", "number": "0832-245-1010", "type": "Water Safety" }
+        ]
+      }
+    ]
+  },
+  "Telangana": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Hyderabad Police", "number": "040-2785-3333", "type": "Hyderabad Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "SHE Teams", "number": "9490617444", "type": "Women Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "TS Emergency" },
+          { "name": "NIMS Hospital", "number": "040-6712-0000", "type": "NIMS Emergency" },
+          { "name": "Blood Bank TS", "number": "040-2340-7777", "type": "Blood Center" },
+          { "name": "Gandhi Hospital", "number": "040-2414-2000", "type": "Gandhi Emergency" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Hyderabad Fire", "number": "040-2785-4444", "type": "HYD Fire" },
+          { "name": "IT Corridor Emergency", "number": "040-6712-5555", "type": "HITEC City" },
+          { "name": "Pharma Emergency", "number": "1800-425-4567", "type": "Pharma Industry" }
+        ]
+      }
+    ]
+  },
+  "Manipur": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Imphal Police", "number": "0385-244-0000", "type": "Imphal Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "BSF Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Manipur Emergency" },
+          { "name": "RIMS Imphal", "number": "0385-241-4207", "type": "RIMS Hospital" },
+          { "name": "Blood Bank Manipur", "number": "0385-244-5678", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Imphal Fire Service", "number": "0385-244-2222", "type": "Imphal Fire" },
+          { "name": "Earthquake Emergency", "number": "1070", "type": "Seismic Alert" },
+          { "name": "Flood Control", "number": "1077", "type": "Flood Emergency" }
+        ]
+      }
+    ]
+  },
+  "Meghalaya": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Shillong Police", "number": "0364-250-0000", "type": "Shillong Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Police", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Meghalaya Emergency" },
+          { "name": "NEIGRIHMS", "number": "0364-258-8200", "type": "Medical College" },
+          { "name": "Blood Bank Meghalaya", "number": "0364-250-5678", "type": "Blood Center" },
+          { "name": "Tribal Health", "number": "1800-345-6543", "type": "Tribal Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Shillong Fire Service", "number": "0364-250-2222", "type": "Shillong Fire" },
+          { "name": "Cave Rescue", "number": "1800-345-2626", "type": "Cave Emergency" },
+          { "name": "Landslide Alert", "number": "1077", "type": "Geological Survey" }
+        ]
+      }
+    ]
+  },
+  "Tripura": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Agartala Police", "number": "0381-238-0000", "type": "Agartala Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "BSF Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Tripura Emergency" },
+          { "name": "AGMC Hospital", "number": "0381-235-1111", "type": "AGMC Emergency" },
+          { "name": "Blood Bank Tripura", "number": "0381-238-5678", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Agartala Fire Service", "number": "0381-238-2222", "type": "Agartala Fire" },
+          { "name": "Flood Control", "number": "1077", "type": "Flood Emergency" },
+          { "name": "Tribal Emergency", "number": "1800-345-7890", "type": "Tribal Safety" }
+        ]
+      }
+    ]
+  },
+  "Mizoram": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Aizawl Police", "number": "0389-233-0000", "type": "Aizawl Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "BSF Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Mizoram Emergency" },
+          { "name": "Civil Hospital Aizawl", "number": "0389-233-4565", "type": "Civil Hospital" },
+          { "name": "Blood Bank Mizoram", "number": "0389-233-5678", "type": "Blood Center" },
+          { "name": "Tribal Health", "number": "1800-345-4321", "type": "Tribal Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Aizawl Fire Service", "number": "0389-233-2222", "type": "Aizawl Fire" },
+          { "name": "Landslide Alert", "number": "1077", "type": "Geological Survey" },
+          { "name": "Earthquake Emergency", "number": "1070", "type": "Seismic Alert" }
+        ]
+      }
+    ]
+  },
+  "Nagaland": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Kohima Police", "number": "0370-229-0000", "type": "Kohima Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "BSF Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Nagaland Emergency" },
+          { "name": "Naga Hospital", "number": "0370-227-5555", "type": "Naga Hospital" },
+          { "name": "Blood Bank Nagaland", "number": "0370-229-5678", "type": "Blood Center" },
+          { "name": "Tribal Health", "number": "1800-345-1234", "type": "Tribal Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Kohima Fire Service", "number": "0370-229-2222", "type": "Kohima Fire" },
+          { "name": "Earthquake Emergency", "number": "1070", "type": "Seismic Alert" },
+          { "name": "Tribal Emergency", "number": "1800-345-5555", "type": "Tribal Safety" }
+        ]
+      }
+    ]
+  },
+  "Arunachal Pradesh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Itanagar Police", "number": "0360-221-0000", "type": "Itanagar Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "BSF Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "AP Emergency" },
+          { "name": "TRIHMS Naharlagun", "number": "0360-221-5555", "type": "TRIHMS Hospital" },
+          { "name": "Blood Bank AP", "number": "0360-221-5678", "type": "Blood Center" },
+          { "name": "High Altitude Medicine", "number": "1800-345-9876", "type": "Mountain Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Itanagar Fire Service", "number": "0360-221-2222", "type": "Itanagar Fire" },
+          { "name": "Mountain Rescue", "number": "1070", "type": "Mountain Safety" },
+          { "name": "Tribal Emergency", "number": "1800-345-6789", "type": "Tribal Safety" }
+        ]
+      }
+    ]
+  },
+  "Sikkim": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Gangtok Police", "number": "03592-202-000", "type": "Gangtok Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Helpline", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Sikkim Emergency" },
+          { "name": "STNM Hospital", "number": "03592-202-271", "type": "STNM Hospital" },
+          { "name": "Blood Bank Sikkim", "number": "03592-202-567", "type": "Blood Center" },
+          { "name": "High Altitude Medicine", "number": "1800-345-8888", "type": "Mountain Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Gangtok Fire Service", "number": "03592-202-222", "type": "Gangtok Fire" },
+          { "name": "Mountain Rescue", "number": "1070", "type": "Mountain Safety" },
+          { "name": "Avalanche Warning", "number": "1800-180-1551", "type": "Snow & Avalanche" }
+        ]
+      }
+    ]
+  },
+  "Jammu and Kashmir": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Srinagar Police", "number": "0194-245-2000", "type": "Srinagar Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Security Forces", "number": "1093", "type": "Security Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "J&K Emergency" },
+          { "name": "SKIMS Soura", "number": "0194-240-1013", "type": "SKIMS Hospital" },
+          { "name": "Blood Bank J&K", "number": "0194-245-5678", "type": "Blood Center" },
+          { "name": "Cold Wave Emergency", "number": "1800-180-7777", "type": "Winter Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Srinagar Fire Service", "number": "0194-245-2222", "type": "Srinagar Fire" },
+          { "name": "Avalanche Warning", "number": "1800-180-1551", "type": "Snow & Avalanche" },
+          { "name": "Tourist Rescue", "number": "1363", "type": "Tourist Emergency" }
+        ]
+      }
+    ]
+  },
+  "Ladakh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Leh Police", "number": "01982-252-018", "type": "Leh Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Border Security", "number": "1093", "type": "Border Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Ladakh Emergency" },
+          { "name": "SNM Hospital Leh", "number": "01982-252-014", "type": "SNM Hospital" },
+          { "name": "Blood Bank Ladakh", "number": "01982-252-567", "type": "Blood Center" },
+          { "name": "High Altitude Sickness", "number": "01982-252-999", "type": "Altitude Medicine" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Leh Fire Service", "number": "01982-252-222", "type": "Leh Fire" },
+          { "name": "Mountain Rescue", "number": "1070", "type": "Mountain Safety" },
+          { "name": "Trekking Emergency", "number": "01982-252-108", "type": "Adventure Sports" }
+        ]
+      }
+    ]
+  },
+  "Andaman and Nicobar Islands": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Port Blair Police", "number": "03192-232-400", "type": "Port Blair Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Coast Guard", "number": "1718", "type": "Marine Security" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "A&N Emergency" },
+          { "name": "GB Pant Hospital", "number": "03192-233-582", "type": "GB Pant Hospital" },
+          { "name": "Blood Bank A&N", "number": "03192-232-567", "type": "Blood Center" },
+          { "name": "Island Medical Emergency", "number": "03192-232-108", "type": "Island Health" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Port Blair Fire", "number": "03192-232-222", "type": "Port Blair Fire" },
+          { "name": "Marine Emergency", "number": "1718", "type": "Sea Rescue" },
+          { "name": "Tsunami Warning", "number": "1077", "type": "Tsunami Alert" }
+        ]
+      }
+    ]
+  },
+  "Chandigarh": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Chandigarh Police", "number": "0172-270-4444", "type": "CHD Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Traffic Police", "number": "9779558955", "type": "Traffic Emergency" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "CHD Emergency" },
+          { "name": "PGI Emergency", "number": "0172-274-7585", "type": "PGI Hospital" },
+          { "name": "Blood Bank CHD", "number": "0172-274-6018", "type": "PGI Blood Bank" },
+          { "name": "Mental Health", "number": "0172-274-6964", "type": "Psychiatry Emergency" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Chandigarh Fire", "number": "0172-270-1234", "type": "CHD Fire" },
+          { "name": "Municipal Emergency", "number": "0172-270-5555", "type": "City Services" },
+          { "name": "Disaster Control", "number": "0172-270-2999", "type": "UT Administration" }
+        ]
+      }
+    ]
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Daman Police", "number": "0260-225-4001", "type": "Daman Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Coast Guard", "number": "1718", "type": "Marine Security" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "DNH & DD Emergency" },
+          { "name": "District Hospital Daman", "number": "0260-225-5555", "type": "District Hospital" },
+          { "name": "Blood Bank DD", "number": "0260-225-5678", "type": "Blood Center" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Daman Fire Service", "number": "0260-225-2222", "type": "Daman Fire" },
+          { "name": "Marine Emergency", "number": "1718", "type": "Sea Rescue" },
+          { "name": "Industrial Emergency", "number": "1906", "type": "Chemical Safety" }
+        ]
+      }
+    ]
+  },
+  "Lakshadweep": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Kavaratti Police", "number": "04896-262-202", "type": "Kavaratti Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Coast Guard", "number": "1718", "type": "Marine Security" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Lakshadweep Emergency" },
+          { "name": "District Hospital", "number": "04896-262-271", "type": "District Hospital" },
+          { "name": "Blood Bank Lakshadweep", "number": "04896-262-567", "type": "Blood Center" },
+          { "name": "Marine Medical", "number": "04896-262-108", "type": "Island Health" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Kavaratti Fire", "number": "04896-262-222", "type": "Kavaratti Fire" },
+          { "name": "Marine Emergency", "number": "1718", "type": "Sea Rescue" },
+          { "name": "Cyclone Warning", "number": "1077", "type": "Weather Alert" }
+        ]
+      }
+    ]
+  },
+  "Puducherry": {
+    "categories": [
+      {
+        "category": "Police & Security",
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Puducherry Police", "number": "0413-233-4567", "type": "Puducherry Control" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" },
+          { "name": "Tourist Police", "number": "1363", "type": "Tourist Safety" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "Puducherry Emergency" },
+          { "name": "JIPMER Hospital", "number": "0413-229-7000", "type": "JIPMER Emergency" },
+          { "name": "Blood Bank Puducherry", "number": "0413-233-5678", "type": "Blood Center" },
+          { "name": "Beach Safety", "number": "0413-233-7070", "type": "Coastal Safety" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Puducherry Fire", "number": "0413-233-2222", "type": "Puducherry Fire" },
+          { "name": "Coast Guard", "number": "1718", "type": "Marine Emergency" },
+          { "name": "Cyclone Warning", "number": "1077", "type": "Weather Alert" }
+        ]
+      }
+    ]
+  },
+  "default": {
+    "categories": [
+      {
+        "category": "Police & Security", 
+        "color": "blue",
+        "contacts": [
+          { "name": "Police Emergency", "number": "100", "type": "National Emergency" },
+          { "name": "Women Helpline", "number": "1091", "type": "24/7 Support" }
+        ]
+      },
+      {
+        "category": "Medical Emergency",
+        "color": "red",
+        "contacts": [
+          { "name": "Ambulance Service", "number": "108", "type": "National Emergency" },
+          { "name": "Health Helpline", "number": "104", "type": "Health Ministry" }
+        ]
+      },
+      {
+        "category": "Fire & Rescue",
+        "color": "orange",
+        "contacts": [
+          { "name": "Fire Brigade", "number": "101", "type": "Fire Emergency" },
+          { "name": "Gas Emergency", "number": "1906", "type": "Gas Safety" }
+        ]
+      }
+    ]
+  }
+}

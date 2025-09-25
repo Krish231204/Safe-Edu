@@ -19,13 +19,25 @@ let emergencyData = null;
 
 async function loadEmergencyData() {
   try {
-    const dataPath = path.join(__dirname, '../public/emergency-contacts.json');
-    const rawData = await fs.readFile(dataPath, 'utf8');
-    emergencyData = JSON.parse(rawData);
+    // Try to load from server directory first (for Render deployment)
+    let dataPath = path.join(__dirname, 'emergency-contacts.json');
+    
+    try {
+      const rawData = await fs.readFile(dataPath, 'utf8');
+      emergencyData = JSON.parse(rawData);
+    } catch (err) {
+      // Fallback to parent directory (for local development)
+      console.log('📂 Trying fallback path for emergency data...');
+      dataPath = path.join(__dirname, '../public/emergency-contacts.json');
+      const rawData = await fs.readFile(dataPath, 'utf8');
+      emergencyData = JSON.parse(rawData);
+    }
+    
     console.log('✅ Emergency contacts data loaded successfully');
     console.log(`📊 States available: ${Object.keys(emergencyData).filter(key => key !== 'default').length}`);
   } catch (error) {
     console.error('❌ Error loading emergency data:', error);
+    console.error('💡 Make sure emergency-contacts.json exists in server directory or ../public/');
     process.exit(1);
   }
 }

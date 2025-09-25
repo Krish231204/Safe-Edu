@@ -53,7 +53,6 @@ PORT=10000
 Add these in Render static site settings:
 ```
 VITE_EMERGENCY_API_URL=https://your-actual-api-url.onrender.com/api/emergency-contacts
-VITE_EMERGENCY_API_KEY=your-api-key-here
 ```
 
 **⚠️ Important**: Replace `your-actual-api-url` with your real API service URL from Step 1.
